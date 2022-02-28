@@ -1,0 +1,67 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Izzy's To Do List</title>    
+</head>
+<body>
+    <div id="header">To Do List</div>
+    <div id="tophalf">
+    <div id="today">
+        <a id="today-text"></a>
+        <div id="input">
+            <div id="inputdiv">
+            <input autocomplete="off" id="input-text"></input> 
+            <button onclick=getInput() id="input-btn">+</button>
+            </div>
+        </div>
+    </div>
+    <div id="weekly-taskbar">  
+        <a id="week-text">This Week</a>
+            <div id="week-input">
+                <div id="week-input-div">
+                <select id="options" name="Day of week">
+                    <option value="Monday">Monday</option>
+                    <option value="Tuesday">Tuesday</option>
+                    <option value="Wednesday">Wednesday</option>
+                    <option value="Thursday">Thursday</option>
+                    <option value="Friday">Friday</option>
+                    <option value="Saturday">Saturday</option>
+                    <option value="Sunday">Sunday</option>
+                </select>
+                <input autocomplete="off" id="week-input-text"></input>
+                <button onclick=getWeekInput() id="week-input-button">+</button>
+                </div>
+            </div>
+            </div>
+    </div>
+    <div id="bottomhalf">
+    <div id="week">
+        <div id="mon">
+            <a id="mon-text">Mon</a>
+        </div>
+        <div id="tues">
+            <a id="tues-text">Tues</a>
+        </div>
+        <div id="wed">
+            <a id="wed-text">Wed</a>
+        </div>
+        <div id="thurs">
+            <a id="thurs-text">Thu</a>
+        </div>
+        <div id="fri">
+            <a id="fri-text">Fri</a>
+        </div>
+        <div id="sat">
+            <a id="sat-text">Sat</a>
+        </div>
+        <div id="sun">
+            <a id="sun-text">Sun</a>
+        </div>
+    </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>         

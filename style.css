@@ -1,0 +1,228 @@
+#header{
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    font-family: Didot;
+    font-weight: bold;
+    height: 6vh;
+}
+#today{
+    height: 47vh;
+    width: 50vw;
+    background-color: lightgray;
+}       
+
+#today-text{
+    font-size: 30px;
+    font-family: Didot;
+    margin-left: 30px; 
+    margin-top: 30px;
+    display: inline-block;
+}   
+
+#weekly-taskbar{
+    height: 47vh;
+    width: 50vw;
+    background-color: lightgray;
+}
+
+#tophalf{
+    display: flex;
+}
+
+#input{
+    margin-left: 30px;
+ 
+}
+
+#input-text{
+    border-radius: 10px;
+}
+
+#input-text:focus{
+    outline: none;
+}
+
+#inputdiv{
+    display: flex;
+}
+
+.task{
+    font-family: Didot;
+    font-size: 25px;
+    margin-left: 5px;
+}
+
+.task:hover{
+    text-decoration: line-through;
+    cursor: pointer;
+}
+
+
+.dashed{
+    text-decoration: line-through;
+}
+
+#bottom-half{
+    display: flex;
+
+}
+#week{
+    background-color: lightpink;
+    margin-top: 1vh;
+    height: 46vh;
+    display: flex;
+}
+
+body{
+    margin: 0px;
+}
+
+#mon{
+    width: 14vw;
+    display: inline;
+    border: 5px solid white;
+}
+
+#mon a{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+#tues{
+    width: 14vw;
+    display: inline;
+    border: 5px solid white;
+}
+
+#tues a{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+#wed{
+    width: 14vw;
+    display: inline;
+    border: 5px solid white;
+}
+
+#wed a{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+#thurs{
+    width: 14vw;
+    display: inline;
+    border: 5px solid white;
+}
+
+#thurs a{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+#fri{
+    width: 14vw;
+    display: inline;
+    border: 5px solid white;
+}
+
+#fri a{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+#sat{
+    width: 14vw;
+    display: inline;
+    border: 5px solid white;
+}
+
+#sat a{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+#sun{
+    width: 14vw;
+    display: inline;
+    border: 5px solid white;
+}
+
+#sun a{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+#mon-text{
+    font-family: Didot;
+    font-size: 20px;
+    
+}
+#tues-text{
+    font-family: Didot;
+    font-size: 20px;
+    
+}
+#wed-text{
+    font-family: Didot;
+    font-size: 20px;
+}
+#thurs-text{
+    font-family: Didot;
+    font-size: 20px;
+
+}
+#fri-text{
+    font-family: Didot;
+    font-size: 20px;
+    
+}
+#sat-text{
+    font-family: Didot;
+    font-size: 20px;
+    
+    
+}
+#sun-text{
+    font-family: Didot;
+    font-size: 20px;
+    
+}
+#week-text{
+    font-family: Didot;
+    font-size: 30px;
+    margin-top: 30px;
+    display: inline-block;
+}
+
+#week-input-text{
+    border-radius: 10px;
+}
+
+#week-input-text:focus{
+    outline: none;
+}
+
+#week-input-div{
+    display: flex;
+}
+
+#options{
+    border-radius: 10px;
+    outline: none;
+}
+
+.weekTask{
+    font-family: Didot;
+}
